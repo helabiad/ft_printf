@@ -6,7 +6,7 @@
 /*   By: helabiad <helabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 13:59:48 by helabiad          #+#    #+#             */
-/*   Updated: 2026/11/02 14:56:17 by helabiad         ###   ########.fr       */
+/*   Updated: 2026/11/02 23:11:29 by helabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 int	ft_put_pointer(const void *ptr)
 {
-	int			prefix_len;
-	int			address_len;
+	int					prefix_len;
+	int					address_len;
 	unsigned long long	address;
-	const char	*base_hex;
+	const char			*base_hex;
 
 	if (ptr == NULL)
 		return (ft_putstr("(nil)"));
