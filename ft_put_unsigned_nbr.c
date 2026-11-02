@@ -6,13 +6,13 @@
 /*   By: helabiad <helabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 14:49:37 by helabiad          #+#    #+#             */
-/*   Updated: 2026/11/01 21:23:52 by helabiad         ###   ########.fr       */
+/*   Updated: 2026/11/02 15:09:44 by helabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_put_unsigned_nbr(unsigned int nbr)
+int	ft_put_unsigned_nbr(const unsigned int nbr)
 {
 	int	write_value;
 	int	rec_value;
