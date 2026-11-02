@@ -6,13 +6,13 @@
 /*   By: helabiad <helabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 13:44:47 by helabiad          #+#    #+#             */
-/*   Updated: 2026/11/01 17:34:03 by helabiad         ###   ########.fr       */
+/*   Updated: 2026/11/02 17:04:48 by helabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putchar(const char c)
+int	ft_putchar(const int c)
 {
 	return ((int)write(1, &c, 1));
 }
