@@ -6,7 +6,7 @@
 /*   By: helabiad <helabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 10:58:34 by helabiad          #+#    #+#             */
-/*   Updated: 2026/11/02 18:34:38 by helabiad         ###   ########.fr       */
+/*   Updated: 2026/11/02 23:09:23 by helabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_handle_format(const char format, va_list args)
 {
 	if (format == 'c')
-		return(ft_putchar(va_arg(args, int)));
+		return (ft_putchar(va_arg(args, int)));
 	if (format == 's')
 		return (ft_putstr(va_arg(args, char *)));
 	if (format == 'p')
