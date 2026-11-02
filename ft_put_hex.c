@@ -6,13 +6,13 @@
 /*   By: helabiad <helabiad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 12:13:15 by helabiad          #+#    #+#             */
-/*   Updated: 2026/11/02 12:17:46 by helabiad         ###   ########.fr       */
+/*   Updated: 2026/11/02 13:45:23 by helabiad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_put_hex(unsigned int nbr, const char *base)
+int	ft_put_hex(const uintptr_t nbr, const char *base)
 {
 	int	rec_return_value;
 	int	wrt_return_value;
