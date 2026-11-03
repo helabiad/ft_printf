@@ -84,10 +84,10 @@ ft_printf/
 
 ## Resources
 
-- [42 ft_printf Subject](https://cdn.intra.42.fr/pdf/pdf/139550/en.subject.pdf)
-- [printf — Linux Manual](https://man7.org/linux/man-pages/man3/printf.3.html)
-- [Variadic Functions — C Reference](https://en.cppreference.com/w/c/variadic.html)
-- [GNU C Library Documentation](https://www.gnu.org/software/libc/manual/)
+1. [Beej's Guide to C Programming](https://beej.us/guide/bgc/) — C fundamentals, pointers, memory, and functions.
+2. [Learn C – W3Schools](https://www.w3schools.com/c/) — C syntax and basic concepts.
+3. [C Reference – cppreference](https://en.cppreference.com/w/c.html) — C language reference and documentation.
+4. [GNU C Library Manual](https://www.gnu.org/software/libc/manual/) — Standard C library functions.
 
 ## AI Usage
 
