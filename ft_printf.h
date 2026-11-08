@@ -28,5 +28,6 @@ int		ft_put_hex_lower(const unsigned int nbr);
 int		ft_put_hex_upper(const unsigned int nbr);
 int		ft_put_pointer(const void *ptr);
 size_t	ft_strlen(const char *s);
+int		ft_printf(const char *format, ...);
 
 #endif
